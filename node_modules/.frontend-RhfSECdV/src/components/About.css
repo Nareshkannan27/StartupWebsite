@@ -1,0 +1,87 @@
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #e3f2fd;
+}
+
+.logo {
+  font-size: 24px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 18px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* About Section Styles */
+.about-section {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 20px;
+}
+
+.text-section {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.text-section h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000;
+}
+
+.text-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.read-more-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.read-more-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Image Section */
+.image-section {
+  flex: 1;
+}
+
+.image-section img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
