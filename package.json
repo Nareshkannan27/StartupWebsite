@@ -1,9 +1,9 @@
 {
   "name": "mern-project",
   "version": "1.0.0",
-  "main": "cd frontend && npm start",
+  "main": "cd backend && npm start",
   "scripts": {
-    "client": "cd frontend && npm start",
+    "client": "cd frontend && npm install && npm start",
     "server": "cd backend && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
